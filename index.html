@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ciulu Sebastian">
+    <meta name="keywords" content="apartments, projects, hotels">
+    <link rel="stylesheet" href="bundles/fontawesome/css/all.css">
+    <link rel="stylesheet" href="bundles/bootstrap/css/bootstrap.css" type="text/CSS">
+    <link rel="stylesheet" href="resources/main.css" type="text/CSS">
+    <title>go.arch</title>
+</head>
+<body>
+  <header class="container">
+    <div class="overlay"></div>
+    <div class="row h-100">
+      <div class="col-4 h-50 d-flex flex-column justify-content-around pl-5 go-arch">
+        <div>go.arch</div>
+          <div><i class="fas fa-glass-martini-alt"></i></div>
+          <div><i class="fas fa-camera-retro"></i></div>
+          <div><i class="fab fa-facebook-f"></i></div>   
+        </div>
+        <nav class="col-8 navbar navbar-expand-md  d-flex justify-content-end h-25">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav w-100 px-5 d-flex justify-content-around">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
+       </nav>
+      </div>
+      <div class="projects-title">
+        <h1 class="display-1">PROJECTS</h1>
+      </div>
+  </header>
+  <main class="container">
+    <div class="overlay"></div>
+    <div class="cities-wrapper row h-100">
+      <div class="new-york col-md-4">
+        <div class="description">CONCERT HALL <span>IN NEW YORK</span></div>
+        <div class="info arch">ARCHITECTURE</div>
+      </div>
+      <div class="gorizia col-md-4">
+        <div class="description">MODERN BEDROOM <span>IN GORIZIA</span></div>
+        <div class="info int">INTERIOR</div>
+      </div>
+      <div class="london col-md-4">
+        <div class="description">MODERN HOTEL <span>IN LONDON</span></div>
+        <div class="info arch">ARCHITECTURE</div>
+      </div>
+      <div class="paris col-md-4">
+        <div class="description">MODERN BEDROOM <span>IN PARIS</span></div>
+        <div class="info int">INTERIOR</div>
+      </div>
+      <div class="chicago col-md-4">
+        <div class="description">MODERN LIBRARY <span>IN CHICAGO</span></div>
+        <div class="info arch">ARCHITECTURE</div>
+      </div>
+      <div class="bucharest col-md-4">
+        <div class="description">MODERN KITCHEN <span>IN BUCHAREST</span></div>
+        <div class="info int">INTERIOR</div>
+      </div>
+    </div>
+  </main>
+  <footer class="container">
+    <div class="more-projects-button-wrapper">
+      <button type="button" class="btn btn-secondary">More Projects</button>
+    </div>
+    <div class="footer-title">GET <span>IN TOUCH</span></div>
+    <form>
+      <div class="row">
+        <div class="inputs-wrapper col-md-8 row">
+          <div class="form-group col-md-6">
+            <label for="nameInput">name</label>
+            <input type="text" class="form-control" id="nameInput" name="name-input" placeholder="Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="phoneInput">phone</label>
+            <input type="number" class="form-control" id="phoneInput" name="phone-input" placeholder="Phone">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="emailInput">email</label>
+            <input type="email" class="form-control" id="emailInput" name="email-input" placeholder="Email">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="companyInput">company</label>
+            <input type="text" class="form-control" id="companyInput" name="company-input" placeholder="Company">
+          </div>
+        </div>
+        <div class="textarea-wrapper col-md-4">
+          <div class="form-group h-100">
+            <label for=textArea>message</label>
+            <textarea placeholder="Message" id="textarea" class="form-control"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="send-button-wrapper">
+        <button type="submit" class="btn btn-secondary">SEND <i class="fas fa-arrow-right"></i></button>
+      </div>
+    </form>
+  </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="bundles/bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
